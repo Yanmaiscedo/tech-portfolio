@@ -2,6 +2,8 @@
 
 Repositório destinado à organização de todos os projetos desenvolvidos ao longo da minha graduação em Sistemas de Informação.
 
+**Priojetos que forem mais bem trabalhados eu irei criar um repositorio separado**
+
 ## 🧠 Áreas
 
 - 📊 Análise de Dados
