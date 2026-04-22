@@ -54,7 +54,7 @@ Implementação clássica utilizando **arquitetura cliente-servidor** com socket
 * Baixo nível de abstração
 * Controle manual de concorrência
 
-👉 Acesse: `./socket-version/README.md`
+  👉 [Acessar projeto](./socket-version/README.md)
 
 ---
 
@@ -68,7 +68,7 @@ Evolução da versão com sockets, agora executando em containers utilizando Doc
 * Isolamento de processos
 * Rede virtual entre serviços
 
-👉 Acesse: `./docker-version/README.md`
+  👉 [Acessar projeto](./docker-version/README.md)
 
 ---
 
@@ -82,7 +82,7 @@ Implementação utilizando Apache Kafka como broker de mensagens.
 * Baixo acoplamento entre componentes
 * Alta escalabilidade
 
-👉 Acesse: `./kafka-version/README.md`
+  👉 [Acessar projeto](./kafka-version/README.md)
 
 ---
 
@@ -151,15 +151,3 @@ Se este projeto for apresentado:
 * Interface web em tempo real
 * Deploy em nuvem
 * Monitoramento de eventos
-
----
-
-## 👨‍💻 Autor
-
-Seu Nome Aqui
-
----
-
-## 📚 Referência
-
-Problema clássico de concorrência: **Sleeping Barber Problem**
