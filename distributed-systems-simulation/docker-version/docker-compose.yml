@@ -1,0 +1,24 @@
+version: "3.9"
+
+services:
+  barbeiro:
+    build: .
+    container_name: barbeiro
+    ports:
+      - "5000:5000"
+    networks:
+      - barbearia_net
+
+  cliente:
+    build: .
+    depends_on:
+      - barbeiro
+    command: python cliente.py
+    deploy:
+      replicas: 5
+    networks:
+      - barbearia_net
+
+networks:
+  barbearia_net:
+    driver: bridge
